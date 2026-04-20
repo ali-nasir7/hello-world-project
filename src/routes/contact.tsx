@@ -50,9 +50,9 @@ function ContactPage() {
             </h3>
             <div className="flex flex-col gap-5">
               {[
-                { icon: <Mail size={18} />, label: "hello@livlongmd.com" },
-                { icon: <Phone size={18} />, label: "(555) 123-4567" },
-                { icon: <MapPin size={18} />, label: "Beverly Hills, CA 90210" },
+                { icon: <Mail size={18} />, label: "livlongmd.com" },
+                { icon: <Phone size={18} />, label: "123" },
+                { icon: <MapPin size={18} />, label: "abc" },
               ].map((item) => (
                 <div key={item.label} className="flex items-center gap-3">
                   <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-primary/10 text-primary">

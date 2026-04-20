@@ -74,7 +74,7 @@ export default function Footer() {
 
         <div className="mt-12 border-t border-border/50 pt-6">
           <p className="text-center text-xs text-muted-foreground/60">
-            © {new Date().getFullYear()} LivLong MD. All rights reserved.
+            © {new Date().getFullYear()} VeltrixLabs. All rights reserved.
           </p>
         </div>
       </div>
